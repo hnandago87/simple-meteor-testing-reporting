@@ -1,0 +1,21 @@
+{
+  "name": "multipages",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "SERVER_TEST_REPORTER=xunit XUNIT_FILE=$PWD/unit.xml meteor test --once --driver-package meteortesting:mocha"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "bcrypt": "^3.0.0",
+    "chai": "^4.1.2",
+    "meteor-node-stubs": "^0.4.1",
+    "simpl-schema": "^1.5.3",
+    "spacejam": "^1.6.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.41.0",
+    "selenium-webdriver": "^3.0.0-beta-2"
+  }
+}

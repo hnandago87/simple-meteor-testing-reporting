@@ -1,0 +1,4 @@
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Fri, 31 Aug 2018 15:49:21 GMT" time="0.189">
+<testcase classname="Testing Register Component" name="Test inserting user registration" time="0.015"/>
+<testcase classname="Testing Register Component" name="Test fetching User" time="0.003"/>
+</testsuite>
